@@ -1,0 +1,1 @@
+import"./styles/main.scss";document.addEventListener("DOMContentLoaded",(function(){const e=document.getElementById("menu-toggle"),n=document.getElementById("nav-menu");e&&n?e.addEventListener("click",(function(){n.classList.toggle("active"),console.log("Menu toggled")})):console.error("Menu elements not found")}));
